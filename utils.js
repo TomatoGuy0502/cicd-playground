@@ -11,3 +11,7 @@ export const dayOfTheWeek = (date = new Date()) => {
 
   return days[date.getDay()]
 }
+
+export const addHi = (greeting = 'Hay') => {
+  return greeting + 'Hi'
+}
