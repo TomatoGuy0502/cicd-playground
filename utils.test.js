@@ -6,4 +6,6 @@ test('2021/5/2 is Sunday', () => {
 
 test('addHi(Yo) equals to YoHi ', () => {
   expect(addHi('Yo')).toBe('YoHi')
+  expect(addHi('BOb')).toBe('BObHi')
+  expect(addHi('Lofi')).toBe('LofiHi')
 })
