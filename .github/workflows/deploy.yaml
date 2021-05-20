@@ -1,11 +1,11 @@
-name: Continuous Integration
+name: Continuous Deploy
 
 on:
   pull_request:
     branches: [master]
 
 jobs:
-  test_pull_request:
+  build_and_deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
