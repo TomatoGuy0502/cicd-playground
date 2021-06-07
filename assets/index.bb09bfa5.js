@@ -1,0 +1,1 @@
+document.querySelector("#app").innerHTML=`\n  <h1>Hello Vite!</h1>\n  <h2>${((e=new Date)=>["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"][e.getDay()])(new Date)}</h2>\n  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>\n`;
